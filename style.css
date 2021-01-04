@@ -5,7 +5,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
 }
-.namelight {
+.orange-word {
   color: orange;
 }
 .half-width {
@@ -15,14 +15,15 @@ body {
   padding-left: 2%;
 }
 .half-width img {
-  width: 100%;
+  width: 80%;
 }
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
 section {
-  height: 500px;
+  height: 400px;
+  margin-bottom: 100px;
 }
 .link-button {
   text-decoration: none;
@@ -30,4 +31,40 @@ section {
   padding: 10px 30px;
   border-radius: 5px;
   font-weight: 700;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  color: dimgray;
+}
+.dream {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.box-style {
+  box-shadow: 10px 10px 35px gray;
+  border-radius: 10px;
+  height: 80%;
+  background-color: white;
+}
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(45deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#baby-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+  font-size: 20px;
 }
